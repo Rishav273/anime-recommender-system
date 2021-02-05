@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Results</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style_results.css">
+</head>
+
+<body>
+	<div class="header">
+		<h3>Similar Anime recommendations:</h3>
+	</div>
+
+
+
+<!-- 	<div class="recommendations"> -->
+		<div class="table">
+		{% for table in tables %}
+        	{{ table|safe }}
+		{% endfor %}
+		</div>
+	</<!-- div> -->
+
+	<form action="{{url_for('home')}}" method="get">
+		<div class="back">
+			<button>Back Home</button>
+		</div>
+	</form>
+
+	<div class="footer">
+		&copy; Rishav Majumdar.
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Failed</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style_failed.css">
+
+</head>
+<body>
+
+	<div class="center">
+		<h4>Sorry! The  requested anime could not be found in the database.</h4>
+	</div>
+	
+	<div class="spell-check">
+		<h4> Please check the spelling and try again.</h4>
+	</div>
+
+	<form action="{{url_for('home')}}" method="get">
+	<div class="back">
+		<a href="index.html">
+		<button>Back Home</button>
+		</a>
+	</div>
+	</form>
+
+	<div class="footer">
+		&copy; Rishav Majumdar.
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+	background: url("recs.jpg") no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.header h3{
+	font-style: italic;
+	font-family: cursive;
+	color: beige;
+	font-size: 35px;
+	position: absolute;
+	top: 5%;
+	right: 15%; 
+}
+
+/*.recommendations ol{
+	font-style: italic;
+	font-family: cursive;
+	font-size: 12px;
+	color: beige;
+	position: absolute;
+	bottom: 15%;
+	right: 12%;
+}*/
+
+.table {
+	position: absolute;
+	top: 20%;
+	right: 20%;
+	font-size: 17px;
+	color: beige;
+	width: 480px;
+	height: 350px;
+}
+
+.back button{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+    font-style: italic;
+    font-family: cursive;     
+    font-weight: bold;
+	background-color: white;
+	font-size: 25px; 
+	color: #44159A;
+	width: 140px;
+	height: 80px;
+	border-radius: 10px;
+	text-shadow: 2px 2px #313033;
+
+}
+
+.back button:hover {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+    font-family: cursive; 
+    font-style: italic;
+    font-weight: bold;
+	background-color: white;
+	font-size: 25px; 
+	color: #44159A;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	width: 140px;
+	height: 84px;
+	text-shadow: 2px 2px #313033;
+	cursor: pointer;
+} 
+
+.footer {
+	font-size: 15px;
+	color: beige;
+	font-style: italic;
+	position: absolute;
+	right: 1%;
+	bottom: 5%;
+}

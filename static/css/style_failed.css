@@ -1,0 +1,79 @@
+body {
+	background: url("fail.jpg") no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+.wrapper{
+	margin: auto; 
+}
+
+
+.center h4{
+	font-style: italic;
+	font-family: cursive;
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	top: 5%;
+	left: 2%;
+	text-align: left;
+	text-shadow: 1px 1px #E86262; 
+}
+
+.spell-check{
+	font-style: italic;
+	font-family: cursive;
+	color: #E1C01C;
+	font-size: 30px;
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	text-shadow: 1px 1px #DC1111;	
+}
+
+.back button{
+	position: absolute;
+	bottom: 20%;
+	left: 15%;
+    font-style: italic;
+    font-family: cursive;     
+    font-weight: bold;
+	background-color: white;
+	font-size: 25px; 
+	color: #44159A;
+	width: 160px;
+	height: 80px;
+	border-radius: 10px;
+	text-shadow: 2px 2px #313033;
+
+}
+
+.back button:hover {
+	position: absolute;
+	bottom: 20%;
+	left: 15%;
+    font-family: cursive; 
+    font-style: italic;
+    font-weight: bold;
+	background-color: white;
+	font-size: 25px; 
+	color: #44159A;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	width: 160px;
+	height: 84px;
+	text-shadow: 2px 2px #313033;
+	cursor: pointer;
+} 
+
+.footer {
+	font-size: 15px;
+	color: beige;
+	font-style: italic;
+	position: absolute;
+	right: 1%;
+	bottom: 5%;
+}
+

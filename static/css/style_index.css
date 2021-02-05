@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url("shonen.jpg") no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.wrapper .center{
+    position: absolute;
+    left: 45%;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-style: italic;
+    font-size: 50px;
+    color: #EEEA0B;
+}
+
+.center h3{
+	color: beige;
+	font-size: 60px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+
+.button_wrapper{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.button_wrapper input[type=text] {
+    width: 500px;
+    height: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    position: absolute;
+    left: 25%;
+    top: 68%;
+    font-style: italic;
+    font-weight: bold; 
+    background: lightgrey;
+}
+
+.button_wrapper input[type=text]:focus {
+  width: 55%;
+  position: absolute;
+  left: 25%;
+  top: 68%;
+  font-style: italic;
+  font-weight: bold;
+  background: lightgrey;
+}
+
+
+
+
+.button_wrapper .buttons{
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+    font-style: italic;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: cursive;
+	font-style: italic;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+}
+/*.buttons .btn2{
+	margin-left: 25px;
+}*/
+.buttons button:hover{
+	background: #cc0000;
+}
+
+.footer {
+	font-size: 15px;
+	color: white;
+	font-style: italic;
+	position: absolute;
+	right: 1%;
+	bottom: 5%;
+}

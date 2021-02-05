@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Anime Recommenations</title>
+	<link rel="stylesheet" href="../static/css/style_index.css">
+</head>
+<body>
+	<div class="wrapper">
+
+			<div class="center">
+
+			<h4>Search for an anime below.</h4>
+			
+	</div>
+	
+	<div class="button_wrapper">
+			<form action="{{ url_for('result')}}" method="post">
+				<input type="text" name="search" placeholder="Search Anime..">
+
+				<div class="buttons">	
+					<button>Recommend</button>	
+				</div>
+			</form>
+	</div>
+
+	<div class="footer">
+		&copy; Rishav Majumdar.
+	</div>
+</body>
+</html>
